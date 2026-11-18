@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Clash Display", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --color-obsidian: #0b0b0b;
+  --color-surface: #121212;
+  --color-card: #151515;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-bubble: #005c4b;
+  --color-whatsapp-panel: #202c33;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #0b0b0b;
+    color: #ffffff;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #0b0b0b;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom subtle horizontal scrollbar for showcase rail */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

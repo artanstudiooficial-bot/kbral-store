@@ -1,0 +1,6 @@
+{
+  "name": "KBRAL STORE",
+  "description": "Vitrine de moda streetwear premium com pedido direto via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
